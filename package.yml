@@ -1,0 +1,19 @@
+name       : sienna
+version    : 1.0c
+release    : 1
+source     :
+    - https://github.com/SimonLarsen/sienna/releases/download/v1.0c/sienna-1.0c.love : 46fe661bec35951e0cf01e30eee3450a8b2806b8f33bb4737e5763e8cc1125f4
+license    :
+    - CC-BY-NC-3.0
+    - CC-BY-NC-ND-3.0
+    - Zlib
+component  : games.platformer
+summary    : Sienna is a simple, fast-paced one-button platformer.
+description: |
+    Sienna is a simple, fast-paced one-button platformer.
+extract    : no
+rundeps    :
+    - love
+install    : |
+    install -D -m 00644 $pkgfiles/sienna.desktop $installdir/usr/share/applications/sienna.desktop
+    install -D -m 00644 $sources/sienna-$version.love $installdir/usr/share/sienna/sienna.love

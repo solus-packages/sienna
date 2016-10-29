@@ -1,0 +1,37 @@
+<PISI>
+    <Source>
+        <Name>sienna</Name>
+        <Packager>
+            <Name>Bryan T. Meyers</Name>
+            <Email>bmeyers@datadrake.com</Email>
+        </Packager>
+        <License>CC-BY-NC-3.0</License>
+        <License>CC-BY-NC-ND-3.0</License>
+        <License>Zlib</License>
+        <PartOf>games.platformer</PartOf>
+        <Summary xml:lang="en">Sienna is a simple, fast-paced one-button platformer.</Summary>
+        <Description xml:lang="en">Sienna is a simple, fast-paced one-button platformer.
+</Description>
+        <Archive type="binary" sha1sum="79eb0752a961b8e0d15c77d298c97498fbc89c5a">https://solus-project.com/sources/README.Solus</Archive>
+    </Source>
+    <Package>
+        <Name>sienna</Name>
+        <Summary xml:lang="en">Sienna is a simple, fast-paced one-button platformer.</Summary>
+        <Description xml:lang="en">Sienna is a simple, fast-paced one-button platformer.
+</Description>
+        <PartOf>games.platformer</PartOf>
+        <Files>
+            <Path fileType="data">/usr/share/applications/sienna.desktop</Path>
+            <Path fileType="data">/usr/share/sienna</Path>
+        </Files>
+    </Package>
+    <History>
+        <Update release="1">
+            <Date>2016-10-29</Date>
+            <Version>1.0c</Version>
+            <Comment>Packaging update</Comment>
+            <Name>Bryan T. Meyers</Name>
+            <Email>bmeyers@datadrake.com</Email>
+        </Update>
+    </History>
+</PISI>

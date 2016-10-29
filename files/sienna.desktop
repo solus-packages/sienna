@@ -1,0 +1,8 @@
+[Desktop Entry]
+Name=Sienna
+Comment=Sienna is a simple, fast-paced one-button platformer.
+Exec=/usr/bin/love /usr/share/sienna/sienna.love
+Terminal=false
+Type=Application
+Categories=Game;
+StartupNotify=false
