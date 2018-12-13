@@ -1,6 +1,6 @@
 name       : sienna
 version    : 1.0c
-release    : 1
+release    : 2
 source     :
     - https://github.com/SimonLarsen/sienna/releases/download/v1.0c/sienna-1.0c.love : 46fe661bec35951e0cf01e30eee3450a8b2806b8f33bb4737e5763e8cc1125f4
 license    :
